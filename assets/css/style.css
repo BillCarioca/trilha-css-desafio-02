@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Header */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px;
+    gap: 32px;
+    position: absolute;
+    width: 100%;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+.Left{
+    width: 20%;
+    align-items: center;
+    flex-direction: row;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.center{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    flex-direction: row;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.Right{
+    width: 10%;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    justify-content: space-between;
+}
+.Rectangle1 {
+    box-sizing: border-box;
+    margin: 0%;
+    width: 90%;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    order: 0;
+}
+.Rectangle2{
+    box-sizing: border-box;
+    margin: 0%;
+    width: 10%;
+    height: 32px;
+    background: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    order: 1;
+}
+/*Main*/
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 24px;
+    gap: 32px;
+
+    position: relative;
+    width: 100%;
+    
+    left: 0px;
+    top: 60px;
+
+    background: #FFFFFF;
+}
+.main{
+    width: 70%;
+    flex-direction: column;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+nav{
+    width: 30%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    gap: 10px;
+    margin: 0%;
+    padding: 0%;
+}
+.main figure{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+.VideoActions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    height: 42px;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.Channel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 160px;
+    height: 42px;
+   
+}
+.Subscribe{
+    align-items:center;
+    text-align: center;
+    display: flex;
+    width: 160px;
+    height: 40px;
+    border-radius: 2px;
+    background: #CC0000;
+    border: #CC0000;
+    color: #FFFFFF;
+}
+.Like{
+    display: flex;
+    width: 160px;
+    height: 40px;
+    align-items: center;
+}
+.Dislike{
+    display: flex;
+    width: 160px;
+    height: 40px;
+    align-items: center;
+}
+.Share{
+    display: flex;
+    width: 160px;
+    height: 40px;
+    align-items: center;
+}
+.Download{
+    display: flex;
+    width: 160px;
+    height: 40px;
+    align-items: center;
+}
+.main p {
+    font-size: 12px;
+    line-height: 14px;
+    color: #515151;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90px;
+    gap: 5px;
+}
+.Thumb{
+    width: 48%;
+    height: 100%;
+    flex-direction: column;
+}
+.Thumb p{
+    color: #515151;
+}
